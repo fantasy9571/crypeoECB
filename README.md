@@ -16,6 +16,9 @@
 }
 ```
 ##如何使用
+```
+npm i cryptoecb -S
+```
 1、加密encrypt
 ```
 const cryptoECB = require('cryptoecb')
