@@ -1,0 +1,25 @@
+{
+  "name": "cryptoecb",
+  "version": "1.0.1",
+  "description": "about node.js crypto ECB encrypt and decrypt obj",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/fantasy9571/crypeoECB.git"
+  },
+  "keywords": [
+    "node",
+    "crypto",
+    "ecb",
+    "object"
+  ],
+  "author": "fantasy9571",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fantasy9571/crypeoECB/issues"
+  },
+  "homepage": "https://github.com/fantasy9571/crypeoECB#readme"
+}
