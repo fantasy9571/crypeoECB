@@ -21,7 +21,7 @@ npm i cryptoecb -S
 ```
 1、加密encrypt
 ```
-const cryptoECB = require('cryptoecb')
+const cryptoecb = require('cryptoecb')
 
 const key = '0fCTbJBOAWg1r9YiKV3UScMjdeX7GZPl'
 const objPramas = {
@@ -34,8 +34,8 @@ const objPramas = {
     key,
     keyPattern:'phone|idcard' 
 }
-const result = cryptoECB.encrypt(objPramas)
-console.log(result)
+const encryptResult = cryptoecb.encrypt(objPramas)
+console.log(encryptResult)
 {
     "name": "张三",
     "sex": "男",
@@ -47,12 +47,12 @@ console.log(result)
 ```
 
 const objPramas = {
-    params: result,
+    params: encryptResult,
     key,
     keyPattern:'phone|idcard' 
 }
-const result = cryptoECB.decrypt(objPramas)
-console.log(result)
+const decryptRsult = cryptoecb.decrypt(objPramas)
+console.log(decryptRsult)
 {
     "name": "张三",
     "sex": "男",

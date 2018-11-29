@@ -1,6 +1,6 @@
 {
   "name": "cryptoecb",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "about node.js crypto ECB encrypt and decrypt obj",
   "main": "index.js",
   "scripts": {
